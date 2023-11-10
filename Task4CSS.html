@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Style for the buttons */
+        .button {
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+            position: relative;
+        }
+
+        /* Style for the list items */
+        .button .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 120px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .button:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 8px 12px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+            font-size: 12px;
+        }
+
+        .dropdown-item:hover {
+            background-color: #ddd;
+        }
+
+        /* Button colors with 50px wide colored stripe */
+        .button-green {
+            background: linear-gradient(to right, #5cb85c 50px, transparent 50px);
+        }
+
+        .button-blue {
+            background: linear-gradient(to right, #3498db 50px, transparent 50px);
+        }
+
+        .button-orange {
+            background: linear-gradient(to right, #f39c12 50px, transparent 50px);
+        }
+
+        .button-brown {
+            background: linear-gradient(to right, #8e44ad 50px, transparent 50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="button button-green">
+        Button 1
+        <div class="dropdown">
+            <a class="dropdown-item" href="#">Item 1</a>
+            <a class="dropdown-item" href="#">Item 2</a>
+            <a class="dropdown-item" href="#">Item 3</a>
+        </div>
+    </div>
+
+    <div class="button button-blue">
+        Button 2
+        <div class="dropdown">
+            <a class="dropdown-item" href="#">Item A</a>
+            <a class="dropdown-item" href="#">Item B</a>
+            <a class="dropdown-item" href="#">Item C</a>
+        </div>
+    </div>
+
+    <div class="button button-orange">
+        Button 3
+        <div class="dropdown">
+            <a class="dropdown-item" href="#">Item X</a>
+            <a class="dropdown-item" href="#">Item Y</a>
+            <a class="dropdown-item" href="#">Item Z</a>
+        </div>
+    </div>
+
+    <div class="button button-brown">
+        Button 4
+        <div class="dropdown">
+            <a class="dropdown-item" href="#">Item P</a>
+            <a class="dropdown-item" href="#">Item Q</a>
+            <a class="dropdown-item" href="#">Item R</a>
+        </div>
+    </div>
+</body>
+</html>

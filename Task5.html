@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+    <style>
+        table, th, td {
+          border: 1.5px solid black;
+          border-collapse:collapse;
+        }
+        </style>
+</head>
+<body>
+    <br><br>
+    <h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Task 5</h2><br>
+    <h2><font color="#0039F6">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Registration form</font></h2>
+    <center>
+        <table width="600">
+        <form action="submit.html">
+            <tr><th><label>First Name</label></th>
+            <td><input type="text" size="64"></td></tr>
+            <tr><th><label>Last Name</label></th>
+            <td><input type="text" size="64"></td></tr>
+            <tr><th><label>Email</label></th>
+            <td><input type="email" size="64"></td></tr>
+            <tr><th><label>Password</label></th>
+            <td><input type="password" size="64"></td></tr>
+            <tr><th><label>Re-enter Password</label></th>
+            <td><input type="password" size="64"></td></tr>
+            <tr><th rowspan="2"><label>Gender</label></th>
+            <td><input type="radio" name="gender"><label for="male">Male</label></td></tr>
+            <tr><td><input type="radio" name="gender"><label for="female">Female</label></td></tr>
+            <tr><th><label>Age</label></th>
+            <td><input type="number" style="width: 457px"></td></tr>
+            <tr><th><label>Address</label></th>
+            <td><textarea rows="4" cols="60"></textarea></td></tr>
+            <tr><th><label>State</label></th>
+            <td><input type="text" size="64"></td></tr>
+            <tr><th><label>Country</label></th>
+            <td><select>
+                <option>Choose Your Country</option>
+                <option>Afghanistan</option>
+                <option>Antartica</option>
+                <option>Argentina</option>
+                <option>Australia</option>
+                <option>Austria</option>
+                <option>Bangladesh</option>
+                <option>Belgium</option>
+                <option>Bhutan</option>
+                <option>Brazil</option>
+                <option>Bulgaria</option>
+                <option>Cambodia</option>
+                <option>Canada</option>
+                <option>Chile</option>
+                <option>China</option>
+                <option>Congo</option>
+                <option>Costa Rica</option>
+                <option>Denmark</option>
+                <option>Egypt</option>
+                <option>Fiji</option>
+                <option>Finland</option>
+                <option>France</option>
+                <option>Germany</option>
+                <option>Greece</option>
+                <option>Grrenland</option>
+                <option>Hong Kong</option>
+                <option>Hungary</option>
+                <option>Iceland</option>
+                <option>India</option>
+                <option>Indonesia</option>
+                <option>Iran</option>
+                <option>Iraq</option>
+                <option>Ireland</option>
+                <option>Israel</option>
+                <option>Italy</option>
+                <option>Japan</option>
+                <option>Jordan</option>
+                <option>Kazakhstan</option>
+                <option>Kenya</option>
+                <option>Kuwait</option>
+                <option>Libya</option>
+                <option>Lithuania</option>
+                <option>Macau</option>
+                <option>Malaysia</option>
+                <option>Maldives</option>
+                <option>Mauritius</option>
+                <option>Mexico</option>
+                <option>Monaco</option>
+                <option>Mongolia</option>
+                <option>Morocco</option>
+                <option>Myanmar</option>
+                <option>Namibia</option>
+                <option>Nepal</option>
+                <option>Netherlands</option>
+                <option>New Zealand</option>
+                <option>Niger</option>
+                <option>Nigeria</option>
+                <option>North Korea</option>
+                <option>Norway</option>
+                <option>Oman</option>
+                <option>Pakistan</option>
+                <option>Palestine</option>
+                <option>Panama</option>
+                <option>Papua New Guinea</option>
+                <option>Peru</option>
+                <option>Philippines</option>
+                <option>Poland</option>
+                <option>Portugal</option>
+                <option>Qatar</option>
+                <option>Romania</option>
+                <option>Russia</option>
+                <option>Saudi Arabia</option>
+                <option>Serbia</option>
+                <option>Singapore</option>
+                <option>Slovakia</option>
+                <option>Slovenia</option>
+                <option>South Africa</option>
+                <option>South Korea</option>
+                <option>Spain</option>
+                <option>Sri Lanka</option>
+                <option>Sudan</option>
+                <option>Sweden</option>
+                <option>Switerland</option>
+                <option>Syria</option>
+                <option>Taiwan</option>
+                <option>Tajikistan</option>
+                <option>Tanzania</option>
+                <option>Thailand</option>
+                <option>Tibet</option>
+                <option>Turkey</option>
+                <option>Turkmenistan</option>
+                <option>Uganda</option>
+                <option>Ukraine</option>
+                <option>United Arab Emirates</option>
+                <option>United Kingdom</option>
+                <option>United States</option>
+                <option>Uzbekistan</option>
+                <option>Vatican City</option>
+                <option>Venezuela</option>
+                <option>Vietnam</option>
+                <option>Yemen</option>
+                <option>Zambia</option>
+                <option>Zimbabwe</option>
+            </select></td></tr>
+            <tr><th><label>Languages Known</label></th> 
+            <td><input type="checkbox"><label>English</label><input type="checkbox"><label>Kannada</label><input type="checkbox"><label>Hindi</label><input type="checkbox"><label>Telugu</label></td></tr>    
+            <tr><td colspan="2"><input type="checkbox"><label>Hereby I declare all the given details are true</label></td></tr>
+            <tr><td colspan="2" align="right"><label>Log in to <a href="https://ethnus.com/">Ethnus</a> website</label></td></tr>
+        </table><br>
+        <button>Register</button>
+        </form>
+    </center>
+</body>
+</html>
